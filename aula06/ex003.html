@@ -15,14 +15,13 @@
 </head>
 
 <body>
-    <h1>Olá, Mundo</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, laboriosam, distinctio quasi dicta vitae
-    unde laudantium neque nesciunt nam possimus ducimus. Saepe deleniti vel mollitia reprehenderit quas, quam quidem
-    ratione?</p>
-
     <script>
-        var nome = prompt("Digite seu nome: ")
-        alert("E um grande prazer em te conhecer " + nome + " !")
+        var n1 = Number(prompt("Um numero "))
+        var n2 = Number(prompt("Digite outro numero"))
+        var soma  = n1 + n2
+        alert(`${n1} + ${n2} = ${soma}`)
+        alert(`A soma do valor foi de: ${soma.toFixed(2).replace('.',',')}`)
+        alert(`A soma do valor foi de: ${soma.toLocaleString('pt-Br', {style: 'currency', currency: 'BRL'})}!`)        
     </script>
 </body>
 
