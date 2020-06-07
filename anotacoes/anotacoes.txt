@@ -1,0 +1,10 @@
+toFixed(2).replace('.',',') // retira o ponto e troca por virgula - aula6
+toLocaleString('pt-Br', {style: 'currency', currency: 'BRL'}) //Converte o valor em moeda adicionando pontos e virgulas - aula6
+
+aula 7 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
+Ordem de precedencia
+() ** /  'Aritimeticos'
+>  < >= 'Relacionais'
+! 'Logicos'
+&& 'Logicos'
+|| 'Logicos'
