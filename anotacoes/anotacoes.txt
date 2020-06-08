@@ -8,3 +8,29 @@ Ordem de precedencia
 ! 'Logicos'
 && 'Logicos'
 || 'Logicos'
+
+====
+DOM = DOCUMENT OBJECT MODEL
+MODELO DE OBJETOS PARA DODUMENTO
+***********************
+elementos dom sao tobasicamente todos da lista abaixo arvore
+sao emlementos da pagina html (tags)
+            window
+location    document    histori
+            html
+        head    body
+    meta title  h1 p p div
+                     strong
+
+------------------------------------------
+pode navegar por 
+por mascara
+por id
+por nome
+pro classe
+por seletor
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+querySelector (css tambem e assim)
+
+toda id e id e representada por #
+toda classe e reperenstada por .
