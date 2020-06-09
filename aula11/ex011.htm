@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALIDADE</title>
+</head>
+
+<body>
+    <h1>Infome em que pais você mora: </h1>
+    <input type="text" name="tpais" id="tpais">
+    <input type="button" value="Enviar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function verificar() {
+            var tpais = document.querySelector('input#tpais')
+            var res = document.querySelector('div#res')
+            var tpais = (tpais.value)
+            if (tpais == 'Brasil') {
+                res.innerHTML = `Você é Brasileiro`
+            } else {
+                res.innerHTML = `Você é Estrangeiro`
+            }
+        }
+    </script>
+</body>
+
+</html>
