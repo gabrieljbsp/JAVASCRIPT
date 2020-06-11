@@ -1,0 +1,7 @@
+var i = 5
+var f = 10
+for (c = i; c = f; c++) {
+    console.log (`${i} ${c}`)
+
+
+}
