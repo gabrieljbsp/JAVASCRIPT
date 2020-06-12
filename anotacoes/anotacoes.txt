@@ -1,36 +1,10 @@
-toFixed(2).replace('.',',') // retira o ponto e troca por virgula - aula6
-toLocaleString('pt-Br', {style: 'currency', currency: 'BRL'}) //Converte o valor em moeda adicionando pontos e virgulas - aula6
+Repetições
 
-aula 7 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
-Ordem de precedencia
-() ** /  'Aritimeticos'
->  < >= 'Relacionais'
-! 'Logicos'
-&& 'Logicos'
-|| 'Logicos'
+while = enquanto
 
-====
-DOM = DOCUMENT OBJECT MODEL
-MODELO DE OBJETOS PARA DODUMENTO
-***********************
-elementos dom sao tobasicamente todos da lista abaixo arvore
-sao emlementos da pagina html (tags)
-            window
-location    document    histori
-            html
-        head    body
-    meta title  h1 p p div
-                     strong
 
-------------------------------------------
-pode navegar por 
-por mascara
-por id
-por nome
-pro classe
-por seletor
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-querySelector (css tambem e assim)
-
-toda id e id e representada por #
-toda classe e reperenstada por .
+function comerPizza() {
+    while (temFatia()){
+        comerFatia()
+    }
+}
